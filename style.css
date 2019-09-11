@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 550px;
+    width: 500px;
+    background-color: #B8B0B0;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
+    position: relative;
+    font-family: elephant;
+}
+
+.textview {
+    position: absolute;
+    height: 70px;
+    width: 450px;
+    font-size: 100px;
+    border: 1px solid #000;
+    background-color: #4EFF83;
+    font-family: digital-7;
+}
+
+/*-------------BUTTON BOXES-------------*/
+#c {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    
+    color: aliceblue;
+    font-weight: 300;
+}
+#cc {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    left: 140px;
+    color: aliceblue;
+    font-weight: 300;
+}
+#cd {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    left: 280px;
+    color: aliceblue;
+    font-weight: 300;
+}
+#ce {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    left: 400px;
+    color: aliceblue;
+    font-weight: 300;
+}
+#seven {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 33%;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+#eight {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 33%;
+    left: 140px;
+    color: aliceblue;
+     font-weight: 500;
+}
+
+
+#nine {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 33%;
+    left: 280px;
+
+    color: aliceblue;
+}
+
+#minus {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+   top: 33%;
+    left: 400px;
+    color: aliceblue;
+}
+
+#add {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 46%;
+    left: 400px;
+
+    color: aliceblue;
+}
+
+#four {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 46%;
+
+    color: aliceblue;
+}
+
+#five {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 46%;
+    left: 140px;
+
+    color: aliceblue;
+}
+
+#six {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 46%;
+    left: 280px;
+
+    color: aliceblue;
+}
+
+#one {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 60%;
+
+    color: aliceblue;
+}
+
+#two {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 60%;
+    left: 140px;
+
+    color: aliceblue;
+}
+
+#three {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 60%;
+    left: 280px;
+
+    color: aliceblue;
+}
+
+#equal {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 190px;
+    width: 70px;
+    top: 60%;
+    left: 400px;
+    color: aliceblue;
+}
+
+#zero {
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 190px;
+    top: 80%;
+
+    color: aliceblue;
+}
+
+#decimal {
+    display: inline-block;
+    position: absolute;
+    background-color: #000;
+    height: 70px;
+    width: 70px;
+    top: 80%;
+    left: 280px;
+    color: aliceblue;
+}
+
+.box {
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 5px rgba(226, 1, 1,0.9);
+    transition: all 0.1s;
+}
+
+.box:active {
+    background-color: #6b6972;
+    box-shadow: 2px 5px #b0afb2;
+    top: 4px;
+}
